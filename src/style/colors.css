@@ -1,0 +1,29 @@
+/*
+GLOBAL COLORS
+*/
+
+:root {
+  --vs-primary: #33E6D5;
+  --vs-secondary: #1F6AF4;
+  --vs-danger: #FC3D39;
+  --vs-success: #49ec34;
+  --vs-warning: #ffbb33;
+  --vs-dark: #5E4F72;
+  --vs-light: #8FFFEB;
+  --vs-bg: #F2F2F2;
+  --vs-boxBg: ##CEE2FC;
+  --vs-body: #333;
+}
+
+.hoge {
+  primary: var(--vs-primary);
+  secondary: var(--vs-secondary);
+  danger: var(--vs-danger);
+  success: var(--vs-success);
+  warning: var(--vs-warning);
+  dark: var(--vs-dark);
+  light: var(--vs-light);
+  bg: var(--vs-bg);
+  boxBg: var(--vs-boxBg);
+  body: var(--vs-body)
+}

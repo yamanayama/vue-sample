@@ -1,0 +1,16 @@
+@import "vars";
+
+.btn{
+  border: 1px solid var(--radius);
+  font-size: 100%;
+  padding: .75em 3em;
+  text-decoration: none;
+}
+
+.btn:hover{
+  opacity: var(--opacity);
+}
+
+.btn:disabled{
+  opacity: .2;
+}

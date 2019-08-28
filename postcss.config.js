@@ -1,5 +1,9 @@
+// eslint-disable-next-line no-undef
 module.exports = {
+  parser: 'sugarss',
+  map: false,
   plugins: {
-    autoprefixer: {}
+    'postcss-plugin': {},
+    'autoprefixer': {},
   }
-}
+};
